@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFB6C1;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.red-section, .blue-section, .green-section {
+    padding: 2em;
+    margin: 1em;
+    border: 2px solid;
+    text-align: center;
+}
+
+.red-section {
+    border-color: red;
+}
+
+.blue-section {
+    border-color: blue;
+}
+
+.green-section {
+    border-color: green;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo {
+    margin: 1em;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: #FFB6C1;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+}
