@@ -26,12 +26,13 @@ nav a {
 }
 
 .red-section {
-    border-color: red;
+    border-color: rgb(255, 255, 0)
 }
 
 .blue-section {
-    border-color: blue;
+    border-color: rgb(255, 0, 204);
 }
+
 
 .green-section {
     border-color: green;
